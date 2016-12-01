@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>九宫格</title>
+    <style>
+
+        .container{
+            width: 960px;
+            height: 960px;
+            background: grey;
+        }
+        .container>div{
+            margin: 10px;
+
+        }
+        .a{
+            background: orange;
+            width: calc(33.33% - 20px);
+            height: calc(33.33% - 20px);
+            border-radius: 10px;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a left"></div>
+        <div class="a left"></div>
+        <div class="a left"></div>
+        <div class="a left"></div>
+        <div class="a left"></div>
+        <div class="a left"></div>
+        <div class="a left"></div>
+        <div class="a left"></div>
+        <div class="a left"></div>
+    </div>
+</body>
+</html>
